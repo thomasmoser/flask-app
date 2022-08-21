@@ -1,0 +1,22 @@
+{
+  "python.linting.pylintArgs": [
+      "--load-plugins",
+      "pylint_flask_sqlalchemy",
+      "pylint_flask",                 
+  ],
+  "files.associations": {
+    "*.html": "jinja-html"
+  },
+"emmet.includeLanguages": { "jinja-html": "html" },
+"editor.defaultFormatter": "vscode.emmet",
+"workbench.iconTheme": "vs-seti",
+"liveSassCompile.settings.formats": [
+
+  {
+    "format": "compressed",
+    "extensionName": ".css",
+    "savePath": null
+  }
+],
+"python.linting.enabled": false,
+}
